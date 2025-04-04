@@ -46,11 +46,12 @@ const Header = () => {
       {/* Навигация */}
       <div className="bg-white text-gray-700 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-3 flex gap-8 justify-center font-medium text-sm">
-          <Link to="#" className="hover:text-primary-100">Jobs</Link>
-          <Link to="#" className="hover:text-primary-100">Companies</Link>
-          <Link to="#" className="hover:text-primary-100">Create CV</Link>
+          <Link to="/" className="hover:text-primary-100">Jobs</Link>
+          <Link to="/companies" className="hover:text-primary-100">Companies</Link>
+          <Link to="/create-cv" className="hover:text-primary-100">Create CV</Link>
         </div>
       </div>
+
     </header>
   );
 };
